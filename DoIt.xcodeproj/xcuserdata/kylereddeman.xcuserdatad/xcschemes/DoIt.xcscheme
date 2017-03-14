@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E53193A21E77A9E500C72532"
+               BlueprintIdentifier = "E53193DC1E77AB9E00C72532"
                BuildableName = "DoIt.app"
                BlueprintName = "DoIt"
                ReferencedContainer = "container:DoIt.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E53193B61E77A9E500C72532"
+               BlueprintIdentifier = "E53193F31E77AB9E00C72532"
                BuildableName = "DoItTests.xctest"
                BlueprintName = "DoItTests"
                ReferencedContainer = "container:DoIt.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E53193C11E77A9E500C72532"
+               BlueprintIdentifier = "E53193FE1E77AB9E00C72532"
                BuildableName = "DoItUITests.xctest"
                BlueprintName = "DoItUITests"
                ReferencedContainer = "container:DoIt.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E53193A21E77A9E500C72532"
+            BlueprintIdentifier = "E53193DC1E77AB9E00C72532"
             BuildableName = "DoIt.app"
             BlueprintName = "DoIt"
             ReferencedContainer = "container:DoIt.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E53193A21E77A9E500C72532"
+            BlueprintIdentifier = "E53193DC1E77AB9E00C72532"
             BuildableName = "DoIt.app"
             BlueprintName = "DoIt"
             ReferencedContainer = "container:DoIt.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E53193A21E77A9E500C72532"
+            BlueprintIdentifier = "E53193DC1E77AB9E00C72532"
             BuildableName = "DoIt.app"
             BlueprintName = "DoIt"
             ReferencedContainer = "container:DoIt.xcodeproj">
