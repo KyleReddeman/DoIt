@@ -12,9 +12,7 @@ class CreateTaskViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var importantSwitch: UISwitch!
-    
-    var previousVC = TasksViewController()
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         textField.delegate = self
@@ -44,11 +42,12 @@ class CreateTaskViewController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func addTapped(_ sender: AnyObject) {
-        let task = Task()
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let task = Task(context: context)
         task.important = importantSwitch.isOn
         task.name = textField.text!
-        previousVC.tasks.append(task)
-        previousVC.tableView.reloadData()
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
         navigationController!.popViewController(animated: true)
     }
 }

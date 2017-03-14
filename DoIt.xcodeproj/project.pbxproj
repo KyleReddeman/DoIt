@@ -16,7 +16,6 @@
 		E53193F91E77AB9E00C72532 /* DoItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53193F81E77AB9E00C72532 /* DoItTests.swift */; };
 		E53194041E77AB9E00C72532 /* DoItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53194031E77AB9E00C72532 /* DoItUITests.swift */; };
 		E53ABE291E7892FF002F2A18 /* DetailedTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53ABE281E7892FF002F2A18 /* DetailedTaskViewController.swift */; };
-		E5B769961E77B02D00A7571E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B769951E77B02D00A7571E /* Task.swift */; };
 		E5B769981E77BC5D00A7571E /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B769971E77BC5D00A7571E /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		E53194031E77AB9E00C72532 /* DoItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoItUITests.swift; sourceTree = "<group>"; };
 		E53194051E77AB9E00C72532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53ABE281E7892FF002F2A18 /* DetailedTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedTaskViewController.swift; sourceTree = "<group>"; };
-		E5B769951E77B02D00A7571E /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E5B769971E77BC5D00A7571E /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +107,6 @@
 				E53193E21E77AB9E00C72532 /* TasksViewController.swift */,
 				E5B769971E77BC5D00A7571E /* CreateTaskViewController.swift */,
 				E53ABE281E7892FF002F2A18 /* DetailedTaskViewController.swift */,
-				E5B769951E77B02D00A7571E /* Task.swift */,
 				E53193E41E77AB9E00C72532 /* Main.storyboard */,
 				E53193EA1E77AB9E00C72532 /* Assets.xcassets */,
 				E53193EC1E77AB9E00C72532 /* LaunchScreen.storyboard */,
@@ -272,7 +269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E53ABE291E7892FF002F2A18 /* DetailedTaskViewController.swift in Sources */,
-				E5B769961E77B02D00A7571E /* Task.swift in Sources */,
 				E53193E91E77AB9E00C72532 /* DoIt.xcdatamodeld in Sources */,
 				E53193E31E77AB9E00C72532 /* TasksViewController.swift in Sources */,
 				E53193E11E77AB9E00C72532 /* AppDelegate.swift in Sources */,
